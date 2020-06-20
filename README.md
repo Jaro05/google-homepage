@@ -1,1 +1,1 @@
-# google-homepage
+This is my first ever coding project, in which I am trying to build a website that looks similar to the google.com homepage. 
