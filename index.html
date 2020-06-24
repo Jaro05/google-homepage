@@ -1,26 +1,92 @@
 <!DOCTYPE html>
 <html>
 <style>
-    #google-img{
-        text-align: center;
-        position: relative;
-        top: 12em;
+    
+    body{
+        font-family: arial, sans-serif;
     }
+    #google-img{
+        position:relative;
+        text-align: center;
+        top: 12em;
+        }
 
     .input{
         position: relative;
         top: 17em;
         width: 582px;
         height: 44px;
+        border-radius: 20px;
+        border-color: #e3e5e8;
+        border-width: 2px;
+        border-style: solid;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 10px;
+
+    }
+    
+    li{ 
+        float: left;
+    }
+
+    li a{
+        text-decoration: none;
+        color: black;
+        padding: 12px;
+        font-size: 14px;
+        }
+    
+    #right-header{
+        float: right;
+        width: 230px;
+    }
+
+    #left-header{
+        float: left;
+        width: 230px;
+        
+    }
+
+    #Sign-In {
+        padding: 10px;
+        position: relative;
+        bottom: 10px;
+        background-color: #4285f4;
+        color: white;
+        border-radius: 5px;
+        padding: 12px;
+        line-height: 8px;
     }
 </style>
 
 <body>
-    <div id="google-img">
-       <img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png>
-    </div>
-    <div style="text-align: center">
-        <input class= "input" type="text">
-    </div>
+    <header>
+        <ul>
+            <div id="left-header">
+                <li><a href="https://web.archive.org/web/20191104021941/https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                <li><a href="https://web.archive.org/web/20191102152135/https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+            </div>
+            <div id="right-header">
+                <li><a href="">Gmail</a></li>
+                <li><a href="https://web.archive.org/web/20191201014017/https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                <button id="Sign-In">Sign in</button>
+            </div>
+        </ul>
+    </header>
+
+    <main>
+        <div id="google-img">
+            <img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png>
+        </div>
+        <div style="text-align:center">
+            <input class= "input" type="text">
+        </div>
+
 </body>
 </html>
